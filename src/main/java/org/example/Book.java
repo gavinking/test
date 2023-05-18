@@ -2,10 +2,8 @@ package org.example;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
-import org.hibernate.annotations.Filter;
 
 @Entity
-@Filter(name = "ByRegion")
 class Book {
 
     @Id
